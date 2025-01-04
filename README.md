@@ -43,12 +43,22 @@ The application provides an easy-to-use interface where users can input their da
 
 ### Application Structure 🛠️
 ```bash
-├── app.py             # Main Flask application
-├── templates/
-│   ├── index.html    # HTML for user interface
-├── static/
-│   ├── styles.css    # CSS for styling
-├── model.pkl         # Pre-trained Random Forest model
+Directory structure:
+└── yogeshwaran10-Anemia_detection/
+    ├── README.md
+    ├── app.py
+    ├── forms.py
+    ├── utils.py
+    ├── images/
+    ├── model/
+    │   └── random_forest_classifier.pkl
+    ├── static/
+    │   └── style.css
+    └── templates/
+        ├── base.html
+        ├── home.html
+        └── result.html
+
 ```
 
 ## Installation & Usage 💻
