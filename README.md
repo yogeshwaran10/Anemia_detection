@@ -14,7 +14,7 @@ This project implements a **Random Forest Classifier** to predict whether an ind
 4. Simple **frontend interface** for user input.
 
 ## System Architecture 🏗️
-![System Architecture](diagram-export-5-21-2024-4_49_14-PM.png)
+![System Architecture](images/diagram-export-5-21-2024-4_49_14-PM.png)
 *The system follows a structured pipeline from dataset handling to model predictions.*
 
 ## Dataset 📊
@@ -90,11 +90,11 @@ This project includes:
 ---
 ### Screenshots 📸
 #### 1. System Architecture
-![System Architecture](diagram-export-5-21-2024-4_49_14-PM.png)
+![System Architecture](images/diagram-export-5-21-2024-4_49_14-PM.png)
 #### 2. Balanced Dataset After SMOTE
-![Balanced Dataset](After_SMOTE.png)
+![Balanced Dataset](images/After_SMOTE.png)
 #### 3. Feature Importance Analysis
-![Feature Importance](Feature_importance.png)
+![Feature Importance](images/Feature_importance.png)
 
 ---
 
