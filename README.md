@@ -14,7 +14,7 @@ This project implements a **Random Forest Classifier** to predict whether an ind
 4. Simple **frontend interface** for user input.
 
 ## System Architecture 🏗️
-![System Architecture](diagram-export-5-21-2024-4_49_14-PM.png)
+![System Architecture](images/diagram-export-5-21-2024-4_49_14-PM.png)
 *The system follows a structured pipeline from dataset handling to model predictions.*
 
 ## Dataset 📊
@@ -28,13 +28,13 @@ The dataset contains the following attributes:
 ## Steps to Handle Imbalance ⚖️
 To ensure balanced predictions, **SMOTE** was applied to generate synthetic samples for the minority class. The result is a perfectly balanced dataset:
 
-![Balanced Dataset](After_SMOTE.png)
+![Balanced Dataset](images/After_SMOTE.png)
 *801 samples each for anemic and non-anemic classes.*
 
 ## Feature Importance 🔍
 Analyzing the Random Forest model revealed the most significant features:
 
-![Feature Importance](Feature_importance.png)
+![Feature Importance](images/Feature_importance.png)
 - **Hemoglobin** is the most influential feature, contributing 83.9% to the prediction.
 - Other significant features include **Gender** (9.1%) and **MCH** (2.7%).
 
@@ -90,11 +90,11 @@ This project includes:
 ---
 ### Screenshots 📸
 #### 1. System Architecture
-![System Architecture](diagram-export-5-21-2024-4_49_14-PM.png)
+![System Architecture](images/diagram-export-5-21-2024-4_49_14-PM.png)
 #### 2. Balanced Dataset After SMOTE
-![Balanced Dataset](After_SMOTE.png)
+![Balanced Dataset](images/After_SMOTE.png)
 #### 3. Feature Importance Analysis
-![Feature Importance](Feature_importance.png)
+![Feature Importance](images/Feature_importance.png)
 
 ---
 
