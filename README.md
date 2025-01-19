@@ -178,6 +178,22 @@ Then open the app in your browser at `http://127.0.0.1:5000/`
 
 <div align="center">
 
+## 🌐 **Live Deployment**
+
+You can try the deployed version of the application here:
+
+[**Anemia Detection App**](https://anemia-detection-46ji.onrender.com)
+
+---
+
+### **Outcome Variable Explanation:**
+
+The **outcome variable** in the dataset indicates the final diagnosis or classification for each patient. The outcome is binary, with two possible values:
+
+- **0**: The patient is not anemic, based on clinical criteria and test results.
+- **1**: The patient is anemic, suggesting a deficiency of red blood cells or hemoglobin in the blood.
+
+
 ## 🤝 Contributing
 
 Your contributions are welcome! Feel free to:
