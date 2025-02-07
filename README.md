@@ -1,12 +1,14 @@
 <div align="center">
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Ambulance.png" alt="Ambulance" width="25" height="25"/> Anemia Detection Using Machine Learning <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Ambulance.png" alt="Ambulance" width="25" height="25"/>
+# 🚑 Anemia Detection Using Machine Learning 🚑
 
 *An intelligent system for predicting anemia using Random Forest Classification*
 
-[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)](https://flask.palletsprojects.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://opensource.org/licenses/MIT)
+
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
 
 </div>
 
@@ -14,10 +16,10 @@
 
 <div align="center">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Stethoscope.png" alt="Stethoscope" width="25" height="25"/> Overview
+## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> Overview
 </div>
 
-This project implements a **Random Forest Classifier** to predict whether an individual is anemic or non-anemic based on their physiological and blood-related attributes. The project includes:
+This project implements a **Random Forest Classifier** to predict whether an individual is anemic or non-anemic based on their blood-related attributes. The project includes:
 - A **Flask-based web application** to interact with the model
 - Pre-trained model for predictions
 - A detailed implementation of training, class balancing, and feature importance analysis
@@ -25,7 +27,7 @@ This project implements a **Random Forest Classifier** to predict whether an ind
 
 <div align="center">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="25" height="25"/> Features
+## <img src="https://user-images.githubusercontent.com/74038190/216121964-513bdf95-3c8c-429a-82bc-7c770caca8fc.png" width="30" /> Features
 
 </div>
 
@@ -37,7 +39,7 @@ This project implements a **Random Forest Classifier** to predict whether an ind
 
 <div align="center">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Chart" width="25" height="25"/> Performance Evaluation
+## 📊 Performance Evaluation
 
 *Model Comparison Analysis*
 
@@ -54,49 +56,49 @@ This project implements a **Random Forest Classifier** to predict whether an ind
 
 <div align="center">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Classical%20Building.png" alt="Architecture" width="25" height="25"/> System Architecture
+## 🏰 System Architecture
 
 ![System Architecture](images/diagram-export-5-21-2024-4_49_14-PM.png)
 
 *The system follows a structured pipeline from dataset handling to model predictions.*
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Card%20Index%20Dividers.png" alt="Dataset" width="25" height="25"/> Dataset Attributes
+## 📊 Dataset Attributes
 
 </div>
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Syringe.png" alt="Syringe" width="20" height="20"/> **Hemoglobin Levels**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microscope.png" alt="Microscope" width="20" height="20"/> **Mean Corpuscular Volume (MCV)**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Test%20Tube.png" alt="Test Tube" width="20" height="20"/> **Mean Corpuscular Hemoglobin (MCH)**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="20" height="20"/> **Mean Corpuscular Hemoglobin Concentration (MCHC)**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Bust%20in%20Silhouette.png" alt="Person" width="20" height="20"/> **Gender**
+- 💉 **Hemoglobin Levels**
+- 🔬 **Mean Corpuscular Volume (MCV)**
+- 🧪 **Mean Corpuscular Hemoglobin (MCH)**
+- 📈 **Mean Corpuscular Hemoglobin Concentration (MCHC)**
+- 👤 **Gender**
 
 <div align="center">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Balance%20Scale.png" alt="Balance" width="25" height="25"/> Class Balance Management
+## ⚖️ Class Balance Management
 
 ![Balanced Dataset](images/After_SMOTE.png)
 
 *Achieved perfect balance: 801 samples each for anemic and non-anemic classes using SMOTE*
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Magnifying%20Glass%20Tilted%20Left.png" alt="Magnifying Glass" width="25" height="25"/> Feature Importance Analysis
+## 🔍 Feature Importance Analysis
 
 ![Feature Importance](images/Feature_importance.png)
 
 </div>
 
 Key Contributors:
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Red%20Square.png" alt="Red Square" width="20" height="20"/> **Hemoglobin**: 87.0% contribution
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Busts%20in%20Silhouette.png" alt="People" width="20" height="20"/> **Gender**: 9.1% contribution
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/DNA.png" alt="DNA" width="20" height="20"/> **MCH**: 2.7% contribution
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Syringe.png" alt="Syringe" width="20" height="20"/> **Others**: 1.2% contribution
+- 🟥 **Hemoglobin**: 87.0% contribution
+- 👥 **Gender**: 9.1% contribution
+- 🧬 **MCH**: 2.7% contribution
+- 💉 **Others**: 1.2% contribution
 
 <div align="center">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Globe%20with%20Meridians.png" alt="Web" width="25" height="25"/> Flask Web Application
+## <img src="https://user-images.githubusercontent.com/74038190/216126268-3e0ffee3-4448-4cec-9969-4bf6209ae1c1.png" width="30" /> Flask Web Application
 
 </div>
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="25" height="25"/> Application Structure
+### 🛠️ Application Structure
 ```bash
 Directory structure:
 └── yogeshwaran10-anemia_detection/
@@ -118,7 +120,7 @@ Directory structure:
 
 <div align="center">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" alt="Computer" width="25" height="25"/> Installation & Usage
+## 💻 Installation & Usage
 
 </div>
 
@@ -142,27 +144,27 @@ Then open the app in your browser at `http://127.0.0.1:5000/`
 
 <div align="center">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Results" width="25" height="25"/> Results
+## 📈 Results
 
 </div>
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" alt="Check" width="20" height="20"/> **High Accuracy**: Achieved through class balancing and Random Forest optimization
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Direct%20Hit.png" alt="Target" width="20" height="20"/> **Precise Predictions**: Driven by significant features like hemoglobin levels
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera.png" alt="Camera" width="20" height="20"/> **New Image Upload Feature**: Extracts blood test attributes automatically for prediction
+- ✅ **High Accuracy**: Achieved through class balancing and Random Forest optimization
+- 🎯 **Precise Predictions**: Driven by significant features like hemoglobin levels
+- 📸 **New Image Upload Feature**: Extracts blood test attributes automatically for prediction
 
 <div align="center">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crystal%20Ball.png" alt="Future" width="25" height="25"/> Future Scope
+## 🔮 Future Scope
 
 </div>
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Chart" width="20" height="20"/> **Expand dataset** to include more diverse features
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="20" height="20"/> **Implement advanced models** like XGBoost or LightGBM
-- **Address Feature scaling** importance to other features
+- 📊 **Expand dataset** to include more diverse features
+- 🚀 **Implement advanced models** like XGBoost or LightGBM
+- ⚖️ **Address Feature scaling** ⚙️ importance to other features
 
 <div align="center">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="Camera" width="25" height="25"/> Screenshots
+## 📸 Screenshots
 
 ### 1. System Architecture
 ![System Architecture](images/diagram-export-5-21-2024-4_49_14-PM.png)
@@ -172,17 +174,20 @@ Then open the app in your browser at `http://127.0.0.1:5000/`
 
 ### 3. Feature Importance Analysis
 ![Feature Importance](images/Feature_importance.png)
+
 </div>
 
 ---
 
 <div align="center">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Globe%20with%20Meridians.png" alt="Globe" width="25" height="25"/> **Live Deployment** ☁️ **Deployed on Render**
+## <img src="https://user-images.githubusercontent.com/74038190/216125640-2783eae5-094f-4b20-a5bf-2c48260a43f5.png" width="30" /> **Live Deployment** ☁️ **Deployed on Render**
 
-You can try the deployed version of the application here <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="20" height="20"/>:
+You can try the deployed version of the application here 🚀:
 
 [**Anemia Detection App**](https://anemia-detection-46ji.onrender.com)
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 
 ---
 
@@ -195,14 +200,14 @@ The **outcome variable** in the dataset indicates the final diagnosis or classif
 - **Not Anemic**: The patient is not anemic, based on clinical criteria and test results.
 - **Anemic**: The patient is anemic, suggesting a deficiency of red blood cells or hemoglobin in the blood.
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="25" height="25"/> Contributing
+## <img src="https://user-images.githubusercontent.com/74038190/214644145-264f4759-7633-441e-9d67-d8dda9d50d26.gif" width="30" /> Contributing
 
 Your contributions are welcome! Feel free to:
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Bug.png" alt="Bug" width="20" height="20"/> Report bugs
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" alt="Idea" width="20" height="20"/> Suggest features
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Wrench.png" alt="Wrench" width="20" height="20"/> Submit pull requests
+- 🐛 Report bugs
+- 💡 Suggest features
+- 🔧 Submit pull requests
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Honeybee.png" alt="Bee" width="25" height="25"/> License
+## 🐝 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
